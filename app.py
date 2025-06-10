@@ -3,6 +3,10 @@ import streamlit as st
 import pickle
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
+import sys
+import streamlit as st
+
+st.write("Running Python version:", sys.version)
 
 
 
